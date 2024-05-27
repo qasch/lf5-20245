@@ -37,7 +37,8 @@ Schreibe ein Python-Skript, das folgende Schritte ausführt:
 - Berechnet die folgenden Operationen und speichert die Ergebnisse in neuen Variablen: Addition, Subtraktion, Multiplikation, Division und Modulo.
 - Gibt die Ergebnisse der Operationen aus.
 
-== Aufgabe 6: Benutzerinput und Variablen
+== Zusatz-Aufgabe 6: Benutzerinput und Variablen
+Hier müsst ihr selbst etwas recherschieren bzw. könnte es zu Fehlern kommen.
 Schreibe ein Programm, das folgende Schritte ausführt:
 
 - Fordert den Benutzer auf, seinen Namen einzugeben, und speichert den Namen in einer Variablen name.
