@@ -1,3 +1,6 @@
+= Übungen zu Variablen
+:toc:
+
 == Aufgabe 1: Einfache Variablenzuweisung
 
 Schreibe ein Python-Skript, das folgende Schritte ausführt:
