@@ -1,0 +1,45 @@
+== Aufgabe 1: Einfache Variablenzuweisung
+
+Schreibe ein Python-Skript, das folgende Schritte ausführt:
+
+- Weist einer Variablen x den Wert 10 zu.
+- Weist einer Variablen y den Wert 5 zu.
+- Berechnet die Summe von x und y und speichert das Ergebnis in einer neuen Variablen summe.
+- Gibt den Wert von summe aus.
+
+== Aufgabe 2: Typen von Variablen
+- Weist einer Variablen a den Wert 3.14 zu.
+- Weist einer Variablen b den Wert "Hallo, Welt!" zu.
+- Weist einer Variablen c den Wert True zu.
+- Gibt die Typen der Variablen a, b und c mit der type()-Funktion aus.
+
+== Aufgabe 3: Variablen und Strings
+
+Schreibe ein Programm, das folgende Schritte ausführt:
+
+- Weist einer Variablen name deinen Namen als String zu.
+- Weist einer Variablen alter dein Alter als Integer zu.
+- Kombiniert die Variablen name und alter zu einem Satz und speichert ihn in der Variablen satz. Beispiel: "Mein Name ist [Name] und ich bin [Alter] Jahre alt."
+- Gibt den Satz aus.
+
+== Aufgabe 4: Variablenwerte austauschen
+
+Schreibe ein Python-Skript, das folgende Schritte ausführt:
+
+- Weist einer Variablen x den Wert 10 zu.
+- Weist einer Variablen y den Wert 20 zu.
+- Tauscht die Werte von x und y.
+- Gibt die neuen Werte von x und y aus.
+
+== Aufgabe 5: Mathematische Operationen mit Variablen
+- Weist einer Variablen a den Wert 15 zu.
+- Weist einer Variablen b den Wert 4 zu.
+- Berechnet die folgenden Operationen und speichert die Ergebnisse in neuen Variablen: Addition, Subtraktion, Multiplikation, Division und Modulo.
+- Gibt die Ergebnisse der Operationen aus.
+
+== Aufgabe 6: Benutzerinput und Variablen
+Schreibe ein Programm, das folgende Schritte ausführt:
+
+- Fordert den Benutzer auf, seinen Namen einzugeben, und speichert den Namen in einer Variablen name.
+- Fordert den Benutzer auf, sein Alter einzugeben, und speichert das Alter in einer Variablen alter.
+- Gibt eine Nachricht aus, die den Namen und das Alter des Benutzers enthält. Beispiel: "Hallo [Name], du bist [Alter] Jahre alt."
