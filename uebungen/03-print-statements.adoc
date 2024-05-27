@@ -1,0 +1,26 @@
+== Aufgabe 1: Verkettung von Strings
+
+- Fordere den Benutzer auf, seinen Vornamen und Nachnamen einzugeben.
+- Verkette die beiden Namen mit dem `+` Operator zu einem vollständigen Namen.
+- Gib eine Begrüßungsnachricht aus, die den vollständigen Namen enthält.
+
+== Aufgabe 2: %-Formatierung
+
+- Fordere den Benutzer auf, sein Alter und seine Lieblingsfarbe einzugeben.
+- Verwende die %-Formatierung, um eine Nachricht auszugeben, die das Alter und die Lieblingsfarbe des Benutzers enthält.
+
+== Aufgabe 3: str.format() Methode
+
+- Fordere den Benutzer auf, die folgenden Informationen einzugeben: Stadt, Land und Postleitzahl.
+- Verwende die `str.format()` Methode, um eine Adresse im Format "Land, Postleitzahl - Stadt" auszugeben.
+
+== Aufgabe 4: F-Strings
+
+- Fordere den Benutzer auf, seinen Namen und sein Geburtsjahr einzugeben.
+- Berechne das aktuelle Alter des Benutzers.
+- Verwende F-Strings, um eine Nachricht auszugeben, die den Namen und das Alter des Benutzers enthält.
+
+== Aufgabe 6: Escape-Sequenzen
+
+- Fordere den Benutzer auf, seinen Lieblingsfilm und ein Zitat aus dem Film einzugeben.
+- Verwende Escape-Sequenzen (also ein vorangestellten Backslash `\`, um den Film und das Zitat in einem mehrzeiligen String auszugeben.

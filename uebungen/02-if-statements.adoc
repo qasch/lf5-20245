@@ -3,11 +3,9 @@
 
 == Aufgabe 1: Einfache if-Anweisung
 
-Schreibe ein Programm, das folgende Schritte ausführt:
-
-- Fordert den Benutzer auf, eine Zahl einzugeben.
-- Überprüft, ob die eingegebene Zahl positiv ist.
-- Gibt eine entsprechende Nachricht aus: "Die Zahl ist positiv" oder "Die Zahl ist nicht positiv".
+- Fordere den Benutzer auf, eine Zahl einzugeben.
+- Überprüfe, ob die eingegebene Zahl positiv ist.
+- Gib eine entsprechende Nachricht aus: "Die Zahl ist positiv" oder "Die Zahl ist nicht positiv".
 
 == Aufgabe 2: if-else-Anweisung
 

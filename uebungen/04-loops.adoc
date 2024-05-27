@@ -1,0 +1,48 @@
+== Aufgabe 1: Summe der ersten n natürlichen Zahlen
+
+- Fordere den Benutzer auf, eine positive ganze Zahl n einzugeben.
+- Berechne die Summe der ersten `n` natürlichen Zahlen (`1` bis `n`) mithilfe einer `for` -Schleife.
+- Gib die Summe aus.
+
+== Aufgabe 2: Fakulät einer Zahl berechnen
+
+- Fordere den Benutzer auf, eine positive ganze Zahl `n` einzugeben.
+- Berechne die Fakultät dieser Zahl (`n! = 1 * 2 * ... * n`) mithilfe einer `for` -Schleife.
+- Gib das Ergebnis aus.
+
+== Aufgabe 3: Alle geraden Zahlen in einem Bereich
+
+- Fordere den Benutzer auf, zwei Zahlen `start` und `end` einzugeben.
+- Gib alle geraden Zahlen in diesem Bereich (inklusive `start` und `end`, falls sie gerade sind) mithilfe einer `for` -Schleife aus.
+
+== Aufgabe 4: Zählen von Vokalen in einem String
+
+- Fordere den Benutzer auf, einen beliebigen String einzugeben.
+- Zähle die Anzahl der Vokale (a, e, i, o, u) in dem String mithilfe einer `for` -Schleife.
+- Gib die Anzahl der Vokale aus.
+
+== Aufgabe 5: Benutzer-Eingabe validieren (mit while-Schleife)
+
+- Fordere den Benutzer auf, eine positive ganze Zahl einzugeben.
+- Verwende eine `while` -Schleife, um sicherzustellen, dass die Eingabe eine positive ganze Zahl ist.
+- Gib die gültige Eingabe aus.
+
+== Aufgabe 6: Multiplikationstabelle
+
+- Fordere den Benutzer auf, eine Zahl `n` einzugeben.
+- Erstelle eine Multiplikationstabelle für die Zahlen von `1` bis `n` mithilfe verschachtelter `for` -Schleifen.
+- Gib die Tabelle formatiert aus.
+
+Hinweis: Eine Multiplikationstabelle ist eine tabellarische Darstellung der Produkte zweier Zahlen. 
+
+Die Multiplikationstabelle von `1` bis `5` sieht folgendermaßen aus:
+
+----
+    1  2  3  4  5
+  ----------------
+1 |  1  2  3  4  5
+2 |  2  4  6  8 10
+3 |  3  6  9 12 15
+4 |  4  8 12 16 20
+5 |  5 10 15 20 25
+----
