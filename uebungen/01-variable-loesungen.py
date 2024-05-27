@@ -7,6 +7,10 @@ print(summe)
 # print(x + y)   # auch möglich, aber in der Aufgabe anders angegeben
 
 
+print()
+print("---------------------------------------")
+print()
+
 # Aufgabe 2
 
 # Hinweis: andere Variablen Namen als in der Aufgabenstellung
@@ -22,6 +26,11 @@ print("wahrheitswert:", type(wahrheitswert))
 # daher muss hier dreimal type() genutzt werden
 print(type(text), type(kommazahl), type(wahrheitswert))
 
+
+print()
+print("---------------------------------------")
+print()
+
 # Aufgabe 3
 
 name = "Shahin"
@@ -30,6 +39,10 @@ satz = "Mein Name ist", name, "und ich bin", age, "Jahre alt."
 print(satz)
 print("Mein Name ist", name, "und ich bin", age, "Jahre alt.")
 
+
+print()
+print("---------------------------------------")
+print()
 
 # Aufgabe 4
 
@@ -52,6 +65,11 @@ x, y = y, x
 print("x:", x, "y:", y)
  
  
+
+print()
+print("---------------------------------------")
+print()
+
  # Aufgabe 5
 
 a = 10
@@ -70,3 +88,19 @@ print("Subtraktion", subtraktion)
 print("Divsion", division)
 print("Ganzzahl Divission", ganzzahl_division)
 print("Modulo", modulo)
+
+
+print()
+print("---------------------------------------")
+print()
+
+## Zusatz-Aufgabe 6
+
+name = input("Bitte Namen eingeben: ")
+alter = input("Bitte Alter eingeben: ")
+
+## Ausgabe mit mehreren Argumenten durch Komma getrennt:
+#print("Hallo", name, ", du bist", alter, "Jahre alt.")
+
+# Ausgabe mit + als Konkatenationsoperator (Stringkonkatenation)
+print("Hallo " + name + ", du bist " + alter + " Jahre alt.")
