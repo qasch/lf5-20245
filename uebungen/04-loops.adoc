@@ -14,6 +14,7 @@
 
 - Fordere den Benutzer auf, zwei Zahlen `start` und `end` einzugeben.
 - Gib alle geraden Zahlen in diesem Bereich (inklusive `start` und `end`, falls sie gerade sind) mithilfe einer `for` -Schleife aus.
+- Schreibe zwei Schleifen. Eine *ohne* und einmal *mit* dem Schlüsslewort `continue`.
 
 == Aufgabe 4: Zählen von Vokalen in einem String
 
