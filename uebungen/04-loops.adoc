@@ -65,7 +65,7 @@ Werft dazu einmal einen Blick in die Dokumentation von `print()`.
 
 Gib folgende Figur auf der Konsole aus:
 
----
+----
 ####
 ####
 ####
