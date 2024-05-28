@@ -60,3 +60,25 @@ Ihr sollt hierbei nur den inneren Teil ausgeben, also so:
 ----
 
 Werft dazu einmal einen Blick in die Dokumentation von `print()`.
+
+== Zusatz-Aufgabe 7: Figur ausgeben einfach
+
+Gib folgende Figur auf der Konsole aus:
+----
+*
+**
+***
+****
+*****
+----
+
+== Zusatz-Aufgabe 7: Figur ausgeben schwerer
+
+Gib folgende Figur (Baum) auf der Konsole aus:
+----
+   *
+  ***
+ *****
+*******
+   |
+----
