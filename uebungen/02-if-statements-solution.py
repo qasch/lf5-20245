@@ -42,20 +42,20 @@
 #     print("Ungültige Note")
 
 
-## Aufgabe 4
+# ## Aufgabe 4
 
-zahl = int(input("Bitte eine Zahl eingeben: "))
+# zahl = int(input("Bitte eine Zahl eingeben: "))
 
-if zahl == 0:
-    print("Die Zahl ist 0")
-elif zahl > 0:
-    print("Die Zahl ist positiv")
-    if zahl % 2 == 0:
-        print("Die Zahl ist gerade")
-    else:
-        print("Die Zahl ist ungerade")
-elif zahl < 0:
-    print("Die Zahl ist negativ")
+# if zahl == 0:
+#     print("Die Zahl ist 0")
+# elif zahl > 0:
+#     print("Die Zahl ist positiv")
+#     if zahl % 2 == 0:
+#         print("Die Zahl ist gerade")
+#     else:
+#         print("Die Zahl ist ungerade")
+# elif zahl < 0:
+#     print("Die Zahl ist negativ")
 
 
 ## Aufgabe 5
@@ -63,11 +63,27 @@ elif zahl < 0:
 zahl1 = int(input("Bitte die erste Zahl eingeben: "))
 zahl2 = int(input("Bitte die zweite Zahl eingeben: "))
 
-if zahl1 > 0 && zahl2 > 0:
+if zahl1 > 0 and zahl2 > 0:
     print("Beide Zahlen sind positiv.")
 
-if zahl1 < 0 || zahl2 < 0:
+if zahl1 < 0 or zahl2 < 0:
     print("Mindestens eine der beiden Zahlen ist negativ.")
+
+# # eine mögliche Alternative ohne and und or
+# if zahl1 >= 0:
+#     if zahl2 >= 0:
+#         print("Beide Zahlen sind positiv.")
+#     else:
+#         print("mindestens eine der beiden zahlen ist negativ.")
+# else:
+#     print("mindestens eine der beiden zahlen ist negativ.")
+
+
+
+
+    if zahl1 < 0:
+        if zahl2 < 0:
+            print("Mindestens eine der beiden Zahlen ist negativ.")
 
 
 
