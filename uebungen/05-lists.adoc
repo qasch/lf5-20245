@@ -10,7 +10,9 @@ Erstelle eine Liste von fünf verschiedenen Früchten und gib das zweite und das
 
 - Erstelle eine leere Liste und füge die Zahlen 1 bis 5 nacheinander hinzu. Entferne anschließend die Zahl 3 aus der Liste.
 - Nutze dafür die Methode `remove()` 
-- Entferne anschließend das zweite Element aus der Liste und lass es ausgeben mit der Mehtode `pop()`
+- Entferne anschließend das zweite Element aus der Liste und lass es ausgeben mit der Mehtode `pop()`.
+
+Zusatz: Müsst ihr die Zahlen hier händisch einzeln nacheinander hinzufügen? Oder fällt euch noch ein anderer Weg ein?
 
 == Übung 4: Listenlänge
 
