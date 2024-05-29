@@ -1,0 +1,45 @@
+== Übung 1: Erstellen und Zugreifen
+
+Erstelle eine Liste von fünf verschiedenen Früchten und gib das zweite und das letzte Element aus.
+
+== Übung 2: Listenslicing
+
+- Erstelle eine Liste von 10 Zahlen und gib die ersten fünf und die letzten drei aus.
+
+== Übung 3: Hinzufügen und Entfernen
+
+- Erstelle eine leere Liste und füge die Zahlen 1 bis 5 nacheinander hinzu. Entferne anschließend die Zahl 3 aus der Liste.
+- Nutze dafür die Methode `remove()` 
+- Entferne anschließend das zweite Element aus der Liste und lass es ausgeben mit der Mehtode `pop()`
+
+== Übung 4: Listenlänge
+
+Erstelle eine Liste mit verschiedenen Elementen und gib die Länge der Liste aus.
+
+== Übung 5: Sortieren
+
+Erstelle eine Liste von 7 zufälligen Zahlen und sortiere sie in aufsteigender Reihenfolge.
+
+== Übung 6: Finden von Elementen
+
+Erstelle eine Liste von 4 Namen und überprüfe, ob ein bestimmter Name in der Liste enthalten ist. Gib einen passenden String dazu aus.
+
+== Übung 7: Durchschnitt berechnen
+
+Erstelle eine Liste von Zahlen und berechne den Durchschnitt dieser Zahlen.
+
+== Übung 8: Zusammenführen von Listen
+
+Erstelle zwei Listen und füge sie zu einer zusammen.
+
+== Übung 9: Listenverschachtelung
+
+Erstelle eine 3x3 Matrix ( mit einer Liste aus Listen) und greife auf das Element in der zweiten Zeile und dritten Spalte zu.
+
+3x3 Matrix:
+
+----
+1 2 3
+4 5 6
+7 8 9
+----
