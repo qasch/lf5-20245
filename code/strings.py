@@ -16,3 +16,32 @@ for number in range(10):
 
 for character in my_string:
     print(character)
+
+print()
+print(my_string[2])
+
+
+# String Konkatenation mit + Operator
+zahl = 42
+antwort = "auf alles"
+print("Die Antwort auf alles ist " + str(zahl))
+
+# String Ausgabe mit % 
+print("Die Antwort %s ist %d" % (antwort, zahl))
+
+# String Ausgabe mit str.format()
+print("Die Antwort {} ist {} ".format(antwort, zahl))
+print("Die Antwort {0} ist {1} ".format(antwort, zahl))
+print("Die Antwort {antwort} ist {zahl} ".format(antwort=antwort, zahl=zahl))
+print("Die Antwort {a} ist {z} ".format(a=antwort, z=zahl))
+
+# String Ausgabe mit F-Strings
+print(f"Die Antwort {antwort} ist {zahl}")
+
+# Ausgabe des Werts einer Variable mit Bezeichner:
+print("zahl=" + str(zahl))
+print(f"{zahl=}")
+
+
+
+
