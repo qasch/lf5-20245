@@ -43,6 +43,22 @@ print("zahl=" + str(zahl))
 print(f"{zahl=}")
 print(f"{zahl:}")  # funktioniert nicht wie gewünscht, nur Ausgabe des Werts
 
+# Ausgabe eines Strings mit Zeilenumbruch
+# durch \n
+# der Backslash \ ist ein sog. Escape Character
+# dieser bezieht sich immer *nur* auf das direkt darauffolgende Zeichen
+# neben dem Zeilenumbruch gibt es noch andere Steuerungszeichen, z.B.
+# den Tabulatoru \t
+long_string = "Das hier ist ein etwas längerer String \nmit mehr Wörtern als die anderen"
+print(f"{long_string}")
 
-
+# Der Baum ist "grün".
+print('Der Baum ist "grün".')
+print("Der Baum ist 'grün'.")
+# Escapen der doppelten Anfühurungszeichen
+# so wird diesem die Bedeutung als öffnendes und schliessendes Element 
+# eines Strings entzogen und das Anführungszeichen wird zu einem regulären
+# Satzzeichen/Character ohne besondere Bedeutung
+print("Der Baum ist \"grün\".")
+print("\"grün\"")
 
