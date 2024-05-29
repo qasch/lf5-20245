@@ -41,6 +41,7 @@ print(f"Die Antwort {antwort} ist {zahl}")
 # Ausgabe des Werts einer Variable mit Bezeichner:
 print("zahl=" + str(zahl))
 print(f"{zahl=}")
+print(f"{zahl:}")  # funktioniert nicht wie gewünscht, nur Ausgabe des Werts
 
 
 
