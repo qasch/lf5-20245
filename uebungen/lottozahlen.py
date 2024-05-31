@@ -16,42 +16,60 @@
 # - [ ] Programm solange Ziehungen machen, bis ihr 6 Richtige habt
 # - [ ] Anzahl der Versuche zählen
 
+# Modul random importieren
 import random
 
-# Anahl der Richtigen
-correct_numbers = 0
-attempts = 0
+# Funktionsdeklarationen
 
-while correct_numbers < 6:
+def generate_lotto_numbers(amount):
+    # lokale Variable, gibt es nur hier innerhalb der Funktion
+    # ist im restlichen Code nicht bekannt
     lottozahlen = []
-    correct_numbers = 0
-
-    attempts += 1
-
-    # lottozahlen.extend(range(1, 50))
-    # print(lottozahlen)
-    # lottozahlen = random.sample(lottozahlen, 6)
-    # print(lottozahlen)
-
-    while len(lottozahlen) < 6:
+    while len(lottozahlen) < amount:
         num = random.randint(1, 49) 
         if num not in lottozahlen:
             lottozahlen.append(num)
-    # print(lottozahlen)
+    # Liste zurückgeben, so dass wir sie verwenden können
+    return lottozahlen
 
-    # TODO: User input bauen, fixe Liste nur zum Testen
-    tipp = [3, 5, 32, 17, 9, 22]
-
-    # Prüfe für jede Zahl in lottozahlen, ob diese in der Liste
-    # tipp enthalten ist
-    # falls ja, zähle die Anzahl der Richtigen um 1 hoch
+# Prüfe für jede Zahl in lottozahlen, ob diese in der Liste
+# tipp enthalten ist
+# falls ja, zähle die Anzahl der Richtigen um 1 hoch
+def check_tipp(lottozahlen, tipp):
+    # Anahl der Richtigen
+    correct_numbers = 0
     for number in lottozahlen:
         if number in tipp:
             correct_numbers += 1
+    return correct_numbers
 
-print(f"Glückwunsch! Du hast {correct_numbers} Richtige: {lottozahlen} (Dein Tipp: {tipp})")
+# TODO: User input bauen, fixe Liste nur zum Testen
+def get_user_input():
+    tipp = [3, 5, 32, 17, 9, 22]
+    return tipp
+
+
+# Logik
+
+attempts = 0
+
+found_numbers = 0
+while found_numbers < 6:
+    found_numbers = 0
+    attempts += 1
+
+    # lottozahlen generieren
+    # gleicher Bezeichner wie oben in Funktion, aber komplett andere Variable 
+    # (siehe Gültigkeitsbereich von Variablen)
+    # nicht verwirren lassen! 
+    lottozahlen = generate_lotto_numbers(6)
+
+    tipp = sorted(get_user_input())
+
+    found_numbers = check_tipp(lottozahlen, tipp)
+
+print(f"Glückwunsch! Du hast {found_numbers} Richtige: {sorted(lottozahlen)}")
 print(f"Und dafür hast du nur {attempts} Versuche gebraucht.")
-
 
 
 
