@@ -1,0 +1,112 @@
+== Übung 1: Erstellen und Zugreifen
+
+Aufgabe: Erstelle eine Liste von fünf verschiedenen Früchten und greife auf das zweite und das letzte Element zu.
+
+----
+fruits = ["Apfel", "Banane", "Kirsche", "Dattel", "Erdbeere"]
+print("Zweites Element:", fruits[1])
+print("Letztes Element:", fruits[-1])
+----
+
+== Übung 2: Listenslicing
+
+Aufgabe: Erstelle eine Liste von 10 Zahlen und gib die ersten fünf und die letzten drei Elemente aus.
+
+----
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print("Erste fünf Elemente:", numbers[:5])
+print("Letzte drei Elemente:", numbers[-3:])
+----
+
+== Übung 3: Hinzufügen und Entfernen
+
+Aufgabe: Erstelle eine leere Liste und füge die Zahlen 1 bis 5 nacheinander hinzu. Entferne anschließend die Zahl 3 aus der Liste.
+
+----
+numbers = []
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+numbers.append(4)
+numbers.append(5)
+print("Liste nach Hinzufügen:", numbers)
+
+numbers.remove(3)
+print("Liste nach Entfernen von 3:", numbers)
+----
+
+== Übung 4: Listenmanipulation
+Aufgabe: Erstelle eine Liste von 5 zufälligen Zahlen. Multipliziere jedes Element in der Liste mit 2 und gib die neue Liste aus.
+
+----
+numbers = [1, 3, 5, 7, 9]
+doubled_numbers = [num * 2 for num in numbers]
+print("Verdoppelte Zahlen:", doubled_numbers)
+----
+
+== Übung 5: Listenverschachtelung
+
+Aufgabe: Erstelle eine 3x3 Matrix (Liste von Listen) und greife auf das Element in der zweiten Zeile und dritten Spalte zu.
+
+----
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print("Element in der zweiten Zeile und dritten Spalte:", matrix[1][2])
+----
+
+== Übung 6: Sortieren
+
+Aufgabe: Erstelle eine Liste von zufälligen Zahlen und sortiere sie in aufsteigender Reihenfolge.
+
+----
+numbers = [4, 2, 9, 1, 5, 6]
+sorted_numbers = sorted(numbers)
+print("Sortierte Liste:", sorted_numbers)
+----
+
+== Übung 7: Finden von Elementen
+
+Aufgabe: Erstelle eine Liste von Namen und überprüfe, ob ein bestimmter Name in der Liste enthalten ist.
+
+----
+names = ["Anna", "Bob", "Charlie", "Diana"]
+name_to_find = "Charlie"
+
+if name_to_find in names:
+    print(f"{name_to_find} ist in der Liste.")
+else:
+    print(f"{name_to_find} ist nicht in der Liste.")
+----
+
+== Übung 8: Listenlänge
+
+Aufgabe: Erstelle eine Liste mit verschiedenen Elementen und gib die Länge der Liste aus.
+
+----
+items = [1, "Apfel", 3.14, True, [1, 2, 3]]
+print("Länge der Liste:", len(items))
+----
+
+== Übung 9: Durchschnitt berechnen
+
+Aufgabe: Erstelle eine Liste von Zahlen und berechne den Durchschnitt dieser Zahlen.
+
+----
+numbers = [10, 20, 30, 40, 50]
+average = sum(numbers) / len(numbers)
+print("Durchschnitt:", average)
+----
+
+== Übung 10: Zusammenführen von Listen
+
+Aufgabe: Erstelle zwei Listen und füge sie zu einer zusammen.
+
+----
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+combined_list = list1 + list2
+print("Zusammengeführte Liste:", combined_list)
+----
